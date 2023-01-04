@@ -2,3 +2,7 @@
 2). How do you create a repositoiry?
 \
 3. mohan test 1
+4. What is VCS?
+5. What does git clone do?
+6. Explain head in terms of  git and also tell the number of heads that can be present in a repository?
+
