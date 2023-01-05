@@ -1,5 +1,6 @@
 1). What is VCS
 2). How do you create a repositoiry?
+<<<<<<< HEAD
 3).test
 
 hello 
@@ -7,4 +8,11 @@ hi how ru
 \
 i am arun
 from Ronur
+=======
+\
+3. mohan test 1
+4. What is VCS?
+5. What does git clone do?
+6. Explain head in terms of  git and also tell the number of heads that can be present in a repository?
+>>>>>>> cb1a0b9d72e07228eaf97be30d044abeaf2c4f25
 
