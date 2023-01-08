@@ -1,3 +1,4 @@
+
 1). What is VCS
 2). How do you create a repositoiry?
 <<<<<<< HEAD
@@ -15,4 +16,14 @@ from Ronur
 5. What does git clone do?
 6. Explain head in terms of  git and also tell the number of heads that can be present in a repository?
 >>>>>>> cb1a0b9d72e07228eaf97be30d044abeaf2c4f25
+hello
+git rebase
+git reflog
+git remote
+git replace
+git restore
+git revert
+git reset
+git request-pull
+:wq
 
