@@ -27,3 +27,7 @@ git reset
 git request-pull
 :wq
 
+hi,
+
+git restore
+git revert
