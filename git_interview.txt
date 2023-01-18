@@ -32,4 +32,5 @@ git restore
 git revert
 
  mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-simple -DarchetypeVersion=1.4
-
+practice
+practice
