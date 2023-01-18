@@ -1,0 +1,118 @@
+// Import the requir
+// the JDBC driver-specific class that implements 
+// DataSource must be imported.
+import java.sql.*;
+import javax.na														   
+Git is an open source distributed version control system and source code management (SCM) system with an insistence to control small and large projects with speed and efficiency.
+
+2) Which language is used in Git?
+Git uses 'C' language. Git is quick, and 'C' language makes this possible by decreasing the overhead of run times contained with high-level languages.
+
+3) What is a repository in Git?
+A repository consists of a list named .git, where git holds all of its metadata for the catalog. The content of the .git file is private to Git.
+
+4) What is 'bare repository' in Git?
+A "bare" repository in Git includes the version control information and no working files (no tree), and it doesn?t include the special. git sub-directory. Instead, it consists of all the contents of the .git sub-directory directly in the main directory itself, whereas working list comprises of:
+
+A .git subdirectory with all the Git associated revision history of your repo.
+A working tree, or find out copies of your project files.
+5) What is the purpose of GIT stash?
+GIT stash takes the present state of the working file and index and puts in on the stack for next and gives you back a clean working file. So in case if you are in the middle of object and require to jump over to the other task, and at the same time you don't want to lose your current edits, you can use GIT stash.
+
+6) What is GIT stash drop?
+When you are done with the stashed element or want to delete it from the directory, run the git 'stash drop' command. It will delete the last added stash item by default, and it can also remove a specific topic if you include as an argument.
+
+7) What are the advantages of using GIT?
+Here are some of the essential advantages of Git:
+
+Data repetition and data replication is possible
+It is a much applicable service
+For one depository you can have only one directory of Git
+The network performance and disk application are excellent
+It is effortless to collaborate on any project
+You can work on any plan within the Git
+8) What is the function of 'GIT PUSH' in GIT?
+'GIT PUSH' updates remote refs along with related objects
+
+9) Why do we require branching in GIT?
+With the help of branching, you can keep your branch, and you can also jump between the different branches. You can go to your past work while at the same time keeping your recent work intact.
+
+10) What is the purpose of 'git config'?
+The 'Git config' is a great method to configure your choice for the Git installation. Using this command, you can describe the repository behavior, preferences, and user information.
+
+11) What is the definition of "Index" or "Staging Area" in GIT?
+When you are making the commits, you can make innovation to it, format it and review it in the common area known as 'Staging Area' or 'Index'.
+
+12) What is a 'conflict' in git?
+A 'conflict' appears when the commit that has to be combined has some change in one place, and the current act also has a change at the same place. Git will not be easy to predict which change should take precedence.
+
+13) What is the difference between git pull and git fetch?
+Git pull command pulls innovation or commits from a specific branch from your central repository and updates your object branch in your local repository.
+
+Git fetch is also used for the same objective, but it works in a slightly different method. When you behave a git fetch, it pulls all new commits from the desired branch and saves it in a new branch in your local repository. If you need to reflect these changes in your target branch, git fetch should be followed with a git merge. Your target branch will only be restored after combining the target branch and fetched branch. To make it simple for you, remember the equation below:
+
+Git pull = git fetch + git merge
+
+14) How to resolve a conflict in Git?
+If you need to resolve a conflict in Git, edit the list for fixing the different changes, and then you can run "git add" to add the resolved directory, and after that, you can run the 'git commit' for committing the repaired merge.
+
+15) What is the purpose of the git clone?
+The git clone command generates a copy of a current Git repository. To get the copy of a central repository, 'cloning' is the simplest way used by programmers.
+
+16) What is git pull origin?
+pull is a get and a consolidation. 'git pull origin master' brings submits from the master branch of the source remote (into the local origin/master branch), and then it combines origin/master into the branch you currently have looked out.
+
+17) What does git commit a?
+Git commits "records changes to the storehouse" while git push " updates remote refs along with contained objects" So the first one is used in a network with your local repository, while the latter one is used to communicate with a remote repository.
+
+18) Why GIT better than Subversion?
+GIT is an open source version control framework; it will enable you to run 'adaptations' of a task, which demonstrate the changes that were made to the code over time also it allows you keep the backtrack if vital and fix those changes. Multiple developers can check out, and transfer changes, and each change can then be attributed to a particular developer.
+
+19) Explain what is commit message?
+Commit message is a component of git which shows up when you submit a change. Git gives you a content tool where you can enter the adjustments made to a commit.
+
+20) Why is it desirable to create an additional commit rather than amending an existing commit?
+There are couples of reason
+
+The correct activity will devastate the express that was recently saved in a commit. If only the commit message gets changed, that's not a problem. But if the contents are being modified, chances of excluding something important remains more.
+Abusing "git commit- amends" can cause a small commit to increase and acquire inappropriate changes.
+21) What does 'hooks' comprise of in Git?
+This index comprises of Shell contents which are enacted after running the relating git commands. For instance, Git will attempt to execute the post-commit content after you run a commit.
+
+22) What is the distinction between Git and Github?
+A) Git is a correction control framework, a tool to deal with your source code history.
+
+GitHub is a hosting function for Git storehouses.
+
+GitHub is a website where you can transfer a duplicate of your Git archive. It is a Git repository hosting service, which offers the majority of the distributed update control and source code management (SCM) usefulness of Git just as including its features.
+
+23) In Git, how would you return a commit that has just been pushed and made open?
+There can be two answers to this question and ensure that you incorporate both because any of the below choices can be utilized relying upon the circumstance:
+
+Remove or fix the bad document in another commit and push it to the remote repository. This is a unique approach to correct a mistake. Once you have necessary changes to the record, commit it to the remote repository for that I will utilize
+
+git submit - m "commit message."
+
+Make another commit that fixes all changes that were made in the terrible commit. to do this, I will utilize a command
+
+git revert <name of bad commit>
+
+24) What does the committed item contain?
+Commit item contains the following parts; you should specify all the three present below:
+
+A set of records, representing to the condition of a task at a given purpose of time
+
+References to parent commit objects
+
+An SHAI name, a 40 character string that uniquely distinguishes the commit object.
+
+25) Describing branching systems you have utilized?
+This question is a challenge to test your branching knowledge with Git along these lines, inform them regarding how you have utilized branching in your past activity and what reason does it serves, you can refer the below mention points:
+
+Feature Branching:
+
+A component branch model keeps the majority of the changes for a specific element within a branch. At the point when the item is throughout tested and approved by automated tests, the branch is then converged into master.
+
+Task Branching
+
+In this model, each assignment is actualized on its branch with the undertaking key included in the branch name. It is anything but difficult to see which code actualizes which task, search for the task key in the branch name.
